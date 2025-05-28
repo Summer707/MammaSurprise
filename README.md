@@ -1,22 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎂 Mom's Birthday Website
 
-## Getting Started
+This is a beautiful, sentimental birthday website for your mom, built with Next.js and CSS modules.
 
-First, run the development server:
+## 🚀 How to Run Locally
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+2. **Start the development server:**
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🖼️ Customizing the Site
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Banner Image:**
+  - Replace `public/banner.jpg` with your own beautiful banner photo.
+- **Our Journey Photos:**
+  - Replace `public/journey1.jpg`, `journey2.jpg`, and `journey3.jpg` with your own images.
+  - Update captions in `src/app/page.tsx` in the `journeyPhotos` array.
+- **3D Carousel:**
+  - Edit the `carouselCards` array in `src/app/page.tsx` to add your own messages about what you love about your mom.
+- **Messages from Loved Ones:**
+  - Add or edit messages in the `lovedOnesMessages` array in `src/app/page.tsx`.
+- **Surprise Gift:**
+  - Change the message or add an animation in the `giftReveal` section in `src/app/page.tsx`.
+
+## 🎨 Styling
+
+- All custom styles are in `src/app/BirthdayHome.module.css`.
+- The site uses elegant pinks, golds, and soft gradients, and is fully responsive.
+
+## 🌐 Deploying
+
+- You can deploy this site for free on [Vercel](https://vercel.com/) or any platform that supports Next.js.
+
+---
+
+Happy Birthday to your amazing mom! 🎉
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
