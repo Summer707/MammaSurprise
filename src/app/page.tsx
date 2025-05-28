@@ -113,22 +113,16 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Surprise Gift Section */}
-      <section className={styles.giftSection}>
-        <h2 className={styles.sectionTitle}>A Little Surprise</h2>
-        {!giftRevealed ? (
-          <button className={styles.giftBtn} onClick={() => window.location.href = "/flower.html"}
->
-            Click to Reveal Your Gift
-          </button>
-        ) : (
-          <div className={styles.giftReveal}>
-            {/* You can replace this with an animation or a special message! */}
-            <span role="img" aria-label="Gift" className={styles.giftEmoji}>🎁</span>
-            <p className={styles.giftMessage}>COUPON: one free hug!</p>
-          </div>
-        )}
-      </section>
+     {/* Surprise Gift Section */}
+<section className={styles.giftSection}>
+  <h2 className={styles.sectionTitle}>A Little Surprise</h2>
+  <button
+    className={styles.giftBtn}
+    onClick={() => window.location.href = "/flower.html"}
+  >
+    Click to Reveal Your Gift
+  </button>
+</section>
 
       {/* Thank You Section */}
       <section className={styles.thankYouSection}>
