@@ -43,7 +43,6 @@ const lovedOnesMessages = [
 
 export default function Home() {
   const [carouselIndex, setCarouselIndex] = useState(0);
-  const [giftRevealed, setGiftRevealed] = useState(false);
 
   // Carousel rotation logic
   const nextCard = () => setCarouselIndex((i) => (i + 1) % carouselCards.length);
